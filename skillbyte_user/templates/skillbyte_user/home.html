@@ -1,0 +1,1013 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>SkillByte | Career Discovery</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet"
+          href="{% static 'skillbyte_user/css/style.css' %}">
+</head>
+
+
+<body>
+
+
+<!-- =========================================================
+     NAVBAR
+========================================================= -->
+
+<header class="navbar">
+
+    <div class="nav-container">
+
+        <a href="#" class="brand">
+
+            <div class="brand-logo">
+                S
+            </div>
+
+            <span>SkillByte</span>
+
+        </a>
+
+
+        <nav class="nav-menu">
+
+            <a href="#" class="nav-link">
+                Home
+            </a>
+
+            <a href="#career" class="nav-link active">
+                Career Paths
+            </a>
+
+            <a href="#roadmaps" class="nav-link">
+                Roadmaps
+            </a>
+
+            <a href="#projects" class="nav-link">
+                Projects
+            </a>
+
+            <a href="#rewards" class="nav-link">
+                Rewards
+            </a>
+
+            <a href="#blog" class="nav-link">
+                Blog
+            </a>
+
+            <a href="#community" class="nav-link">
+                Community
+            </a>
+
+        </nav>
+
+
+        <div class="nav-actions">
+
+            <button class="login-btn">
+                Login
+            </button>
+
+            <button class="join-btn">
+                Join Now — ₹499/month
+            </button>
+
+        </div>
+
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+    </div>
+
+
+    <!-- Mobile menu -->
+
+    <div class="mobile-menu" id="mobileMenu">
+
+        <a href="#">Home</a>
+        <a href="#career">Career Paths</a>
+        <a href="#roadmaps">Roadmaps</a>
+        <a href="#projects">Projects</a>
+        <a href="#rewards">Rewards</a>
+        <a href="#blog">Blog</a>
+        <a href="#community">Community</a>
+
+        <div class="mobile-actions">
+
+            <button class="login-btn">
+                Login
+            </button>
+
+            <button class="join-btn">
+                Join Now — ₹499/month
+            </button>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+
+<!-- =========================================================
+     HERO SECTION
+========================================================= -->
+
+<section class="hero" id="career">
+
+    <div class="hero-container">
+
+
+        <!-- LEFT -->
+
+        <div class="hero-left">
+
+            <div class="hero-badge">
+
+                <i class="fa-regular fa-star"></i>
+
+                Discover Your Best Career Path
+
+            </div>
+
+
+            <h1>
+
+                Not sure which
+
+                <br>
+
+                career path is
+
+                <span>right</span>
+
+                <br>
+
+                <span>for you?</span>
+
+            </h1>
+
+
+            <p class="hero-description">
+
+                Go through our Career Discovery Test and find the path
+                that matches your interests, strengths, and personality.
+
+            </p>
+
+
+            <!-- Features -->
+
+            <div class="hero-features">
+
+
+                <div class="feature-pill">
+
+                    <div class="feature-icon blue">
+                        <i class="fa-regular fa-clock"></i>
+                    </div>
+
+                    <div>
+                        <strong>Takes only</strong>
+                        <small>10–15 mins</small>
+                    </div>
+
+                </div>
+
+
+                <div class="feature-pill">
+
+                    <div class="feature-icon orange">
+                        <i class="fa-regular fa-sun"></i>
+                    </div>
+
+                    <div>
+                        <strong>Scientifically</strong>
+                        <small>Designed</small>
+                    </div>
+
+                </div>
+
+
+                <div class="feature-pill">
+
+                    <div class="feature-icon green">
+                        <i class="fa-regular fa-thumbs-up"></i>
+                    </div>
+
+                    <div>
+                        <strong>100% Free</strong>
+                        <small>for Members</small>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+            <!-- CTA -->
+
+            <button class="hero-cta" id="startTestBtn">
+
+                Start Career Discovery Test
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </button>
+
+
+            <div class="privacy-text">
+
+                <i class="fa-solid fa-lock"></i>
+
+                Your answers are private and secure
+
+            </div>
+
+        </div>
+
+
+
+        <!-- RIGHT -->
+
+        <div class="career-illustration">
+
+
+            <div class="orbit orbit-1"></div>
+            <div class="orbit orbit-2"></div>
+
+
+            <!-- Career Cards -->
+
+
+            <div class="career-card card-data">
+
+                <div class="career-icon green-icon">
+
+                    <i class="fa-solid fa-chart-simple"></i>
+
+                </div>
+
+                <strong>Data Analytics</strong>
+
+            </div>
+
+
+            <div class="career-card card-ai">
+
+                <div class="career-icon purple-icon">
+
+                    <i class="fa-solid fa-brain"></i>
+
+                </div>
+
+                <strong>AI & Machine<br>Learning</strong>
+
+            </div>
+
+
+            <div class="career-card card-ui">
+
+                <div class="career-icon pink-icon">
+
+                    <i class="fa-solid fa-pen-nib"></i>
+
+                </div>
+
+                <strong>UI/UX<br>Design</strong>
+
+            </div>
+
+
+            <div class="career-card card-web">
+
+                <div class="career-icon blue-icon">
+
+                    <i class="fa-solid fa-code"></i>
+
+                </div>
+
+                <strong>Web<br>Development</strong>
+
+            </div>
+
+
+            <div class="career-card card-marketing">
+
+                <div class="career-icon orange-icon">
+
+                    <i class="fa-solid fa-bullhorn"></i>
+
+                </div>
+
+                <strong>Digital<br>Marketing</strong>
+
+            </div>
+
+
+            <div class="career-card card-security">
+
+                <div class="career-icon teal-icon">
+
+                    <i class="fa-solid fa-shield-halved"></i>
+
+                </div>
+
+                <strong>Cybersecurity</strong>
+
+            </div>
+
+
+            <div class="career-card card-cloud">
+
+                <div class="career-icon cloud-icon">
+
+                    <i class="fa-solid fa-cloud"></i>
+
+                </div>
+
+                <strong>Cloud<br>Computing</strong>
+
+            </div>
+
+
+            <!-- Main illustration -->
+
+            <div class="person-illustration">
+
+                <div class="person-head"></div>
+
+                <div class="person-hair"></div>
+
+                <div class="person-body"></div>
+
+                <div class="person-shirt"></div>
+
+                <div class="person-arm"></div>
+
+            </div>
+
+
+            <div class="question q1">?</div>
+            <div class="question q2">?</div>
+            <div class="question q3">?</div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     HOW IT WORKS
+========================================================= -->
+
+<section class="how-section">
+
+    <div class="how-container">
+
+
+        <div class="section-title">
+
+            <h2>
+                How Career Discovery Test Works
+            </h2>
+
+            <p>
+                Simple steps to discover what excites you most
+            </p>
+
+        </div>
+
+
+        <div class="steps">
+
+
+            <!-- STEP 1 -->
+
+            <div class="step-card">
+
+                <div class="step-number green-number">
+                    1
+                </div>
+
+                <div class="step-icon green-step">
+                    <i class="fa-regular fa-clipboard"></i>
+                </div>
+
+                <h3>
+                    Answer Questions
+                </h3>
+
+                <p>
+                    Answer questions about your interests,
+                    skills, and preferences.
+                </p>
+
+            </div>
+
+
+            <div class="step-arrow">
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+
+
+            <!-- STEP 2 -->
+
+            <div class="step-card">
+
+                <div class="step-number purple-number">
+                    2
+                </div>
+
+                <div class="step-icon purple-step">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <h3>
+                    We Analyze
+                </h3>
+
+                <p>
+                    Our smart algorithm analyzes your answers
+                    and matches your strengths.
+                </p>
+
+            </div>
+
+
+            <div class="step-arrow">
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+
+
+            <!-- STEP 3 -->
+
+            <div class="step-card">
+
+                <div class="step-number blue-number">
+                    3
+                </div>
+
+                <div class="step-icon blue-step">
+                    <i class="fa-solid fa-chart-pie"></i>
+                </div>
+
+                <h3>
+                    Get Your Top Matches
+                </h3>
+
+                <p>
+                    Get your top 3–4 career path matches
+                    with detailed insights.
+                </p>
+
+            </div>
+
+
+            <div class="step-arrow">
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+
+
+            <!-- STEP 4 -->
+
+            <div class="step-card">
+
+                <div class="step-number orange-number">
+                    4
+                </div>
+
+                <div class="step-icon orange-step">
+                    <i class="fa-solid fa-route"></i>
+                </div>
+
+                <h3>
+                    Explore & Decide
+                </h3>
+
+                <p>
+                    Explore the paths, roadmaps, and projects
+                    to choose what excites you most.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     CAREER PATHS
+========================================================= -->
+
+<section class="paths-section">
+
+    <div class="paths-container">
+
+
+        <!-- LEFT -->
+
+        <div class="paths-left">
+
+            <div class="section-heading-left">
+
+                <h2>
+                    Explore All 7 Career Paths
+                </h2>
+
+                <p>
+                    Our test helps you discover which of these
+                    paths suits you best
+                </p>
+
+            </div>
+
+
+            <div class="path-grid">
+
+
+                <div class="path-card">
+
+                    <i class="fa-solid fa-brain purple-icon-text"></i>
+
+                    <strong>
+                        AI & Machine<br>Learning
+                    </strong>
+
+                </div>
+
+
+                <div class="path-card">
+
+                    <i class="fa-solid fa-chart-simple green-icon-text"></i>
+
+                    <strong>
+                        Data<br>Analytics
+                    </strong>
+
+                </div>
+
+
+                <div class="path-card">
+
+                    <i class="fa-solid fa-code blue-icon-text"></i>
+
+                    <strong>
+                        Web<br>Development
+                    </strong>
+
+                </div>
+
+
+                <div class="path-card">
+
+                    <i class="fa-solid fa-bullhorn orange-icon-text"></i>
+
+                    <strong>
+                        Digital<br>Marketing
+                    </strong>
+
+                </div>
+
+
+                <div class="path-card">
+
+                    <i class="fa-solid fa-pen-nib pink-icon-text"></i>
+
+                    <strong>
+                        UI/UX<br>Design
+                    </strong>
+
+                </div>
+
+
+                <div class="path-card">
+
+                    <i class="fa-solid fa-shield-halved teal-icon-text"></i>
+
+                    <strong>
+                        Cybersecurity
+                    </strong>
+
+                </div>
+
+
+                <div class="path-card">
+
+                    <i class="fa-solid fa-cloud cloud-icon-text"></i>
+
+                    <strong>
+                        Cloud<br>Computing
+                    </strong>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="decision-banner">
+
+                <div class="decision-icon">
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+
+                <div>
+
+                    <strong>
+                        Can't decide even after the test?
+                    </strong>
+
+                    <p>
+                        No worries! You can explore all the paths,
+                        try mini-projects, and switch anytime.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- RIGHT -->
+
+        <div class="why-section">
+
+            <h2>
+                Why Take the Test?
+            </h2>
+
+
+            <div class="why-item">
+
+                <div class="why-icon green-why">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+
+                <div>
+
+                    <h3>
+                        Personalized Results
+                    </h3>
+
+                    <p>
+                        Get career path recommendations
+                        based on your unique profile.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="why-item">
+
+                <div class="why-icon purple-why">
+                    <i class="fa-regular fa-clock"></i>
+                </div>
+
+                <div>
+
+                    <h3>
+                        Save Time & Money
+                    </h3>
+
+                    <p>
+                        Avoid trial and error. Choose the
+                        right path from the beginning.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="why-item">
+
+                <div class="why-icon pink-why">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div>
+
+                    <h3>
+                        Learn What You Love
+                    </h3>
+
+                    <p>
+                        Focus on skills and projects that
+                        truly excite you.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="why-item">
+
+                <div class="why-icon orange-why">
+                    <i class="fa-solid fa-bullseye"></i>
+                </div>
+
+                <div>
+
+                    <h3>
+                        Better Career Decisions
+                    </h3>
+
+                    <p>
+                        Make confident decisions for a
+                        successful future.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     TESTIMONIAL
+========================================================= -->
+
+<section class="testimonial-section">
+
+    <div class="testimonial-container">
+
+
+        <div class="testimonial-photo">
+
+            <!-- Replace with your actual photo -->
+            <img
+                src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=600&q=80"
+                alt="SkillByte Students">
+
+        </div>
+
+
+        <div class="testimonial-content">
+
+            <p class="testimonial-text">
+
+                "The test helped me realize that I love solving
+                problems with data. Now I'm on the path to becoming
+                a Data Analyst!"
+
+            </p>
+
+            <p class="student-name">
+                — Riya S., SkillByte Student
+            </p>
+
+        </div>
+
+
+        <div class="testimonial-cta">
+
+            <p>
+                Join thousands of students discovering
+                their perfect career path.
+            </p>
+
+            <button class="outline-btn" id="testimonialBtn">
+
+                Start Test Now – It's Free
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     FINAL CTA
+========================================================= -->
+
+<section class="final-cta">
+
+    <div class="final-container">
+
+
+        <div class="final-text">
+
+            <h2>
+                Your future is important.
+                <br>
+                Discover the path that fits <span>YOU.</span>
+            </h2>
+
+            <p>
+                Start your career discovery journey today!
+            </p>
+
+        </div>
+
+
+        <div class="final-features">
+
+
+            <div>
+
+                <strong>
+                    <i class="fa-regular fa-clock"></i>
+                </strong>
+
+                <span>
+                    10–15 mins
+                    <small>test</small>
+                </span>
+
+            </div>
+
+
+            <div>
+
+                <strong>
+                    <i class="fa-solid fa-chart-simple"></i>
+                </strong>
+
+                <span>
+                    Instant
+                    <small>results</small>
+                </span>
+
+            </div>
+
+
+            <div>
+
+                <strong>
+                    <i class="fa-regular fa-star"></i>
+                </strong>
+
+                <span>
+                    100% Free
+                    <small>for members</small>
+                </span>
+
+            </div>
+
+
+            <div>
+
+                <strong>
+                    <i class="fa-solid fa-users"></i>
+                </strong>
+
+                <span>
+                    Trusted by
+                    <small>10K+ students</small>
+                </span>
+
+            </div>
+
+
+        </div>
+
+
+        <button class="final-button" id="finalTestBtn">
+
+            Start Career Discovery Test
+
+            <i class="fa-solid fa-arrow-right"></i>
+
+        </button>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer>
+
+    <div class="footer-container">
+
+
+        <div class="footer-brand">
+
+            <div class="brand-logo">
+                S
+            </div>
+
+            <strong>
+                SkillByte
+            </strong>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <a href="#">
+                About Us
+            </a>
+
+            <a href="#">
+                Contact
+            </a>
+
+            <a href="#">
+                FAQs
+            </a>
+
+            <a href="#">
+                Privacy Policy
+            </a>
+
+            <a href="#">
+                Terms & Conditions
+            </a>
+
+        </div>
+
+
+        <p class="copyright">
+            © 2026 SkillByte. All rights reserved.
+        </p>
+
+
+        <div class="social-links">
+
+            <a href="#">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+<!-- =========================================================
+     JAVASCRIPT
+========================================================= -->
+
+<script src="{% static 'skillbyte_user/js/script.js' %}"></script>
+
+</body>
+
+</html>
